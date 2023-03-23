@@ -14,7 +14,7 @@ class GlossaryContent extends React.Component {
     render() {
         return (
             <div className={'glossary-content'}>
-                <p>The <a href="https://v1.cosmos.network/sdk">Cosmos SDK</a> is a development kit for building applications to run on top of Tendermint consensus as a PoS layer 1 blockchain. The SDK provides a framework with which the business logic of new L1 blockchains can easily be created by separating the software components into distinct modules. Separation of components through modules enables flexibility and customization during the development process.
+                <p>The <a href="https://v1.cosmos.network/sdk">Cosmos SDK</a> is a development kit for building applications to run on top of CometBFT (implementing the Tendermint consensus algorithm) as a PoS layer 1 blockchain. The SDK provides a framework with which the business logic of new L1 blockchains can easily be created by separating the software components into distinct modules. Separation of components through modules enables flexibility and customization during the development process.
                 </p>
 
             </div>
